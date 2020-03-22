@@ -23,6 +23,9 @@ namespace NetSecondALab
 
             if (triangle.Check())
             {
+                Console.WriteLine($"A({triangle.Ax}:{triangle.Ay})");
+                Console.WriteLine($"B({triangle.Bx}:{triangle.By})");
+                Console.WriteLine($"C({triangle.Cx}:{triangle.Cy})");
                 Console.WriteLine("---------------");
                 triangle.coutLnt();
                 Console.WriteLine("---------------");
